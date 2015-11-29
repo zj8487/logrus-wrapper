@@ -1,8 +1,8 @@
-# Things to Note
+# Notes
 - Aside from the setup function, all the function ins **logfunc.go** are 
-compatible with standard Sirupsen/logrus function calls. So if ever we want to 
-ditch this wrapper in favor of the original package, only the setup process 
-would need to change.
+compatible with Sirupsen/logrus standard package-level logger function calls. 
+So if we ever need to switch back to Sirupsen's logrus library, only the setup 
+process would need to change.
 
 - Adding support for file and line number information adds a bit of overhead,
 which is why it isn't currently supported in the Sirupsen/logrus library.
