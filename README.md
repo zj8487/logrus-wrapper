@@ -1,11 +1,14 @@
-# Package github.com/jeffizhungry/logrus
+# Intro                                                                                   
 
 - Provides a wrapper around github.com/Sirupsen/logrus package-level logger
 to add **file**, **function**, and **line number** information.
 
 - Aside from the setup function, all the functions in **logfunc.go** are 
-fully compatible with Sirupsen/logrus package. This makes switching back to 
-the original package a simple task.
+fully compatible with Sirupsen/logrus package. 
+
+- This makes switching back to the original package as simple as:
+  1. removing the Setup(...) function
+  2. replacing *jeffizhungry* with *Sirupsen*
 
 # Usage
 
