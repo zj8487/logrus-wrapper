@@ -6,7 +6,7 @@
 fully compatible with Sirupsen/logrus package. 
 
 - This makes switching back to the original package as simple as:
-  1. removing the Setup(...) function
+  1. replacing the Setup(...) function
   2. replacing *jeffizhungry* with *Sirupsen*
 
 # Usage
