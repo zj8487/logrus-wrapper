@@ -1,6 +1,6 @@
 # Intro                                                                                   
 
-- Provides a wrapper around (Sirupsen/logrus) [github.com/Sirupsen/logrus] package-level logger to add **file**, **function**, and **line number** info.
+- Provides a wrapper around [Sirupsen/logrus] (github.com/Sirupsen/logrus) package-level logger to add **file**, **function**, and **line number** info.
 
 - Aside from the setup function, all the functions in **logfunc.go** are 
 fully compatible with Sirupsen/logrus package. 
